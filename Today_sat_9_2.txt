@@ -1,0 +1,80 @@
+>> img=imread('');
+Error using imread (line 349)
+File "" does not exist.
+ 
+>> L=256;
+>> cancel
+Undefined function or variable 'cancel'.
+ 
+>> img=imread('D:\my\bear.jpg');
+>> L=256;
+>> S=(L-1)-img;
+>> figure,imshow(S):title('inverted image');
+Undefined operator ':' for input arguments of type 'matlab.graphics.primitive.Image'.
+ 
+>> ffigure,imshow(S):title('inverted image');
+Undefined function or variable 'ffigure'.
+ 
+>> figure,imshow(img):title('inverted image');
+Undefined operator ':' for input arguments of type 'matlab.graphics.primitive.Image'.
+ 
+>> figure,imshow(img):title('inverted image');
+Undefined operator ':' for input arguments of type 'matlab.graphics.primitive.Image'.
+ 
+>> ffigure,imshow(S):title('inverted image');
+Undefined function or variable 'ffigure'.
+ 
+>> figure,imshow(S):title('inverted image');
+Undefined operator ':' for input arguments of type 'matlab.graphics.primitive.Image'.
+ 
+>> figure,imshow(S):title('Pole Bear');
+Undefined operator ':' for input arguments of type 'matlab.graphics.primitive.Image'.
+ 
+>> figure,imshow(img):title('Pole Bear');
+Undefined operator ':' for input arguments of type 'matlab.graphics.primitive.Image'.
+ 
+>> figure,imshow(img):title('Pole Bear');
+Undefined operator ':' for input arguments of type 'matlab.graphics.primitive.Image'.
+ 
+>> figure,imshow(S):title('Pole Bear');
+Undefined operator ':' for input arguments of type 'matlab.graphics.primitive.Image'.
+ 
+>> img=imread('D:\my\bear.jpg');
+>> r=double(img);
+>> c=1;
+>> S=c*log(l+r);
+Undefined function or variable 'l'.
+ 
+Did you mean:
+>> S=c*log(l+r);
+Undefined function or variable 'l'.
+ 
+Did you mean:
+>> S=c*log(l+r);
+Undefined function or variable 'l'.
+ 
+Did you mean:
+>> S=c*log(l+r);
+Undefined function or variable 'l'.
+ 
+Did you mean:
+>> S=c*log(l+r);
+Undefined function or variable 'l'.
+ 
+Did you mean:
+>> img=imread('D:\my\bear.jpg');
+r=double(img);
+c=1;
+S=c*log(1+r);
+>> T=255/(c*log(256));
+>> B=uint8(T*S);
+>> figure,imshow(B):title('Log transformation');
+Undefined operator ':' for input arguments of type 'matlab.graphics.primitive.Image'.
+ 
+>> figure,imshow(B):title('Log transformation');
+Undefined operator ':' for input arguments of type 'matlab.graphics.primitive.Image'.
+ 
+>> figure,imshow(img):title('Log transformation');
+Undefined operator ':' for input arguments of type 'matlab.graphics.primitive.Image'.
+ 
+>> 
